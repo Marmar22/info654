@@ -80,14 +80,6 @@ color: #a5c3c3; /*added*/
   border-bottom: none;
 }
 
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #f1f1f1;
-  padding: 10px;
-}
-
 .sidebar {
   max-width: 100%;/*changed from 30% to 100%*/
   background-color: #f1f1f1;
