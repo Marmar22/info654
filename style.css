@@ -119,6 +119,7 @@ article {
     border-radius: 4px;
     box-shadow: 0 4px 8px #ca5a5a1a;
     padding: 20px;
+    max-width: 100%
 }
 
 th, td {
