@@ -140,7 +140,7 @@ td.empty {
 }
 
 .gallery img {
-  flex: 1 1 100px; 
+  flex: 1 1 100%; 
   margin: 4px;
   max-width: 30%;
   height: auto;
