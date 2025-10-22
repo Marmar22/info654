@@ -57,10 +57,8 @@ section {
 }
 
 .navbar {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
     display: flex;
+    flex-direction: column;/*added*/
     margin: 10px;
     padding: 10px;
     background-color: #a5c3c3;
@@ -70,11 +68,16 @@ section {
     color: black;
     padding: 10px 20px;
     text-align: center;
+    border-bottom: 1px solid #263535 /*added*/
 }
 
-.navbar a:hover {
-background-color: #263535;
-color: #a5c3c3;
+.navbar a:hover { /*added*/
+background-color: #263535; /*added*/
+color: #a5c3c3; /*added*/
+}
+
+.navbar a:last-child {
+  border-bottom: none;
 }
 
 article {
@@ -89,12 +92,14 @@ article {
   max-width: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+  flex: 1 1 100%; /*added*/
 }
 
 .main {
   max-width: 70%;
   background-color: white;
   padding: 20px;
+  flex: 1 1 100%; /*added*/
 }
 
 .container {  
