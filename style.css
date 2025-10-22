@@ -89,14 +89,14 @@ article {
 }
 
 .sidebar {
-  max-width: 30%;
+  max-width: 100%;/*changed from 30% to 100%*/
   background-color: #f1f1f1;
   padding: 20px;
   flex: 1 1 100%; /*added*/
 }
 
 .main {
-  max-width: 70%;
+  max-width: 100%;/*changed from 70% to 100%*/
   background-color: white;
   padding: 20px;
   flex: 1 1 100%; /*added*/
