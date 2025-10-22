@@ -51,7 +51,15 @@ h4, p, ul {
     text-align: left;
 }
 
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
 .navbar {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     display: flex;
     margin: 10px;
     padding: 10px;
