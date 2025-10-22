@@ -93,7 +93,6 @@ article {
   background-color: #f1f1f1;
   padding: 20px;
   flex: 1 1 100%; /*added*/
-  flex-direction: column; /*added2*/
 }
 
 .main {
@@ -101,7 +100,6 @@ article {
   background-color: white;
   padding: 20px;
   flex: 1 1 100%; /*added*/
-  flex-direction: column;/*added2*/
 }
 
 .container {  
