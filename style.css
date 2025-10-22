@@ -130,6 +130,9 @@ td.empty {
 iframe {
     aspect-ratio: 16 / 9;
     width: 100% !important;
+    max-width=100% ;
+    height=600px ;
+    style=border:none;
 }
 
 .media {
